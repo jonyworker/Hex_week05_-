@@ -1,0 +1,23 @@
+/*----   color   ----*/
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-white {
+  background-color: white;
+}
+
+.text-primary {
+  color: var(--text-color-primary);
+}
+.text-secondary {
+  color: var(--text-color-secondary);
+}
+.text-highlight {
+  color: var(--text-color-highlight);
+}
+.text-white {
+  color: white;
+}

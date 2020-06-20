@@ -1,0 +1,22 @@
+/*----   globe   ----*/
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+a {
+  text-decoration: none;
+  color: var(--text-color-primary);
+}
+img {
+  display: block;
+}
+h1, h2, h3, h4, h5 ,h6 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+p, ul{
+  line-height: 1.5;
+}
+.setListStyle {
+  list-style: disc;
+}

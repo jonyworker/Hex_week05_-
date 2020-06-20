@@ -1,0 +1,117 @@
+@import "spacing.css";
+@import "flexBox.css";
+@import "fonts.css";
+@import "color.css";
+@import "globe.css";
+@import "border.css";
+
+:root {
+  --color-primary: #EDF4EE;
+  --color-secondary: #2A8356;
+  --text-color-primary: #121212;
+  --text-color-secondary: #0000009A;
+  --text-color-highlight: #2A8356;
+  --border-color-primary: #CDDDCD;
+  --border-color-secondary: #2A8356;
+  --root-spacing: 16px;
+}
+
+/*----   globe   ----*/
+.container-1280 {
+  width: 1280px;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+}
+
+/*----   side-menu   ----*/
+.side-menu {
+  position: fixed;
+  width: 296px;
+  height: 100vh;
+  padding: 32px;
+}
+.side-menu-title img{
+  margin-bottom: 32px;
+}
+.side-menu-list li {
+  margin-bottom: 26px;
+}
+.side-menu-list li a {
+  
+  display: flex;
+  align-items: center;
+}
+.side-menu-profile {
+  padding-top: auto;
+}
+.profile-photo-1 {
+  width: 40px;
+  height: 40px;
+  background-image: url(https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*----   main   ----*/
+.main {
+  margin-left: 296px;
+}
+
+/*----   main-nav   ----*/
+.nav {
+  margin-bottom: 12px;
+}
+.nav-list:nth-of-type(1) h2 {
+  margin-right: 46px;
+}
+.side-menu-list li a {
+  position: relative;
+}
+.side-menu-list li a {
+  position: relative;
+}
+.side-menu-list li a:hover {
+  color: var(--text-color-highlight);
+}
+
+/*----   main-question   ----*/
+.question {
+  width: 320px;
+}
+.question-list li {
+  height: 63px;
+}
+/*----   answer   ----*/
+.answer {
+  width: 584px;
+}
+.answer-content {
+  width: 488px;
+}
+.profile-photo-2 {
+  width: 40px;
+  height: 40px;
+  background-image: url(https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.downloadLink {
+  width: 176px;
+  height: 40px;
+}
+
+.bottomLine {
+  height: 16.5px;
+}
+
+/* .markRead {
+  width: 157px;
+  height: 35px;
+} */

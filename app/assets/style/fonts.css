@@ -1,0 +1,30 @@
+.font-Bold-16 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.font-Bold-24 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.font-Regular-12 {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.font-Regular-14 {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.font-Regular-14-Roboto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.font-Regular-16 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
